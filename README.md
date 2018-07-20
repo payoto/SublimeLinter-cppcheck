@@ -43,5 +43,7 @@ Additional SublimeLinter-cppcheck settings:
 
 For ``enable``, you can use a single string (ex: ``"style,unusedFunction"``), or an array of strings if not inline (ex: ``["style", "unusedFunction"]``).
 
+Possible options are : ``"all","warning","style","performance","portability","information","unusedFunction",`` 
+
 For ``std``, you can use a single string for a single value, but you have to use an array of strings for multiple values (ex. ``["c89", "c99"]``), which means you can't use multiple values in inline settings.
 
