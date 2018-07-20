@@ -15,7 +15,7 @@ class Cppcheck(Linter):
         'selector': 'source.c, source.c++',
         '--std=,+': [],  # example ['c99', 'c89']
         '--enable=,': 'style',
-        '--supress=,+':[], # example ["missingOverride"]
+        '--suppress=,+':[], # example ["missingOverride"]
     }
 
     def split_match(self, match):
