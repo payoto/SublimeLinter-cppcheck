@@ -13,7 +13,7 @@ class Cppcheck(Linter):
     tempfile_suffix = '-'
     defaults = {
         'selector': 'source.c, source.c++',
-        '--project=':
+        '--project=':,
         '--std=,+': [],  # example ['c99', 'c89']
         '--enable=,': 'style',
         '--suppress=,+':[], # example ["missingOverride"]
